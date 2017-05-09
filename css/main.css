@@ -74,7 +74,7 @@ body {
     color: #fff; }
 
 header.main-header {
-  background-image: url(/img/pattern.jpg);
+  background-image: url("/img/pattern.jpg");
   height: 670px;
   width: 100%;
   margin-bottom: 5.5rem;
@@ -111,7 +111,7 @@ section.intro .row {
     display: table-cell;
     vertical-align: middle; }
     section.intro .row .infos:before {
-      content: ' ';
+      content: " ";
       display: inline-block;
       height: 100%;
       vertical-align: middle; }
@@ -138,7 +138,7 @@ section.intro .row {
     overflow: hidden;
     display: table-cell;
     height: 600px;
-    background-image: url(/img/socken.jpg);
+    background-image: url("/img/socken.jpg");
     background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -151,14 +151,14 @@ section.intro .row {
           left: 0;
           top: 0;
 
-          background-image: url('/img/socken.jpg');
+          background-image: url("/img/socken.jpg");
           background-position: left top;
           background-repeat: no-repeat;
           background-size: cover;
 
           transform: rotate(18deg);
 
-          content: ' ';
+          content: " ";
         }*/ }
 
 section.keywords {
@@ -196,13 +196,13 @@ section.keywords {
             width: 105px;
             height: 105px; } }
         section.keywords .row .col .icon.quality {
-          background-image: url(/img/cotton_lila.png); }
+          background-image: url("/img/cotton_lila.png"); }
         section.keywords .row .col .icon.dots {
-          background-image: url(/img/dots_lila.png); }
+          background-image: url("/img/dots_lila.png"); }
         section.keywords .row .col .icon.sock {
-          background-image: url(/img/socke_lila.png); }
+          background-image: url("/img/socke_lila.png"); }
       section.keywords .row .col:after {
-        content: ' ';
+        content: " ";
         width: 0;
         height: 0;
         border-style: solid;
@@ -218,11 +218,11 @@ section.keywords {
       section.keywords .row .col.active .icon {
         background-color: #461863; }
       section.keywords .row .col.active.quality {
-        background-image: url(/img/cotton_white.png); }
+        background-image: url("/img/cotton_white.png"); }
       section.keywords .row .col.active.dots {
-        background-image: url(/img/dots_white.png); }
+        background-image: url("/img/dots_white.png"); }
       section.keywords .row .col.active.sock {
-        background-image: url(/img/socke_white.png); }
+        background-image: url("/img/socke_white.png"); }
 
 section.keywords-text {
   padding: 3rem 0 4rem 0;

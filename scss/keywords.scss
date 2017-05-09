@@ -56,20 +56,20 @@ section {
 
           //normal
           &.quality {
-            background-image: url(/img/cotton_lila.png);
+            background-image: url("/img/cotton_lila.png");
           }
 
           &.dots {
-            background-image: url(/img/dots_lila.png);
+            background-image: url("/img/dots_lila.png");
           }
 
           &.sock {
-            background-image: url(/img/socke_lila.png);
+            background-image: url("/img/socke_lila.png");
           }
         }
 
         &:after {
-          content: ' ';
+          content: " ";
 
           width: 0;
           height: 0;
@@ -98,15 +98,15 @@ section {
           //active images
 
           &.quality {
-            background-image: url(/img/cotton_white.png);
+            background-image: url("/img/cotton_white.png");
           }
 
           &.dots {
-            background-image: url(/img/dots_white.png);
+            background-image: url("/img/dots_white.png");
           }
 
           &.sock {
-            background-image: url(/img/socke_white.png);
+            background-image: url("/img/socke_white.png");
           }
         }
 

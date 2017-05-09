@@ -13,7 +13,7 @@ section {
         vertical-align: middle;
 
         &:before {
-          content: ' ';
+          content: " ";
           display: inline-block;
           height: 100%;
           vertical-align: middle;
@@ -60,7 +60,7 @@ section {
         display: table-cell;
         height: 600px;
 
-        background-image: url(/img/socken.jpg);
+        background-image: url("/img/socken.jpg");
         background-position: left top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -75,14 +75,14 @@ section {
           left: 0;
           top: 0;
 
-          background-image: url('/img/socken.jpg');
+          background-image: url("/img/socken.jpg");
           background-position: left top;
           background-repeat: no-repeat;
           background-size: cover;
 
           transform: rotate(18deg);
 
-          content: ' ';
+          content: " ";
         }*/
       }
     }
