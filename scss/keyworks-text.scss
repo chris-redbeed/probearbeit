@@ -1,0 +1,41 @@
+section {
+  &.keywords-text {
+    padding: 3rem 0 4rem 0;
+
+    text-align: center;
+
+    .container {
+
+      display: none;
+
+      &.active {
+        display: block;
+      }
+    }
+
+    h2 {
+      font-size: 2.2rem;
+      text-transform: uppercase;
+
+      max-width: 520px;
+      margin: auto;
+
+      letter-spacing: 0.2rem;
+      word-spacing: 0.3rem;
+
+      margin-bottom: 3rem;
+
+      line-height: 1.3;
+    }
+
+    p {
+      max-width: 560px;
+      margin: auto;
+
+
+      line-height: 1.55;
+
+      word-spacing: 0.25rem;
+    }
+  }
+}

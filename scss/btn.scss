@@ -1,0 +1,22 @@
+.btn {
+  border-style: solid;
+  border-width: 2px;
+  border-color: $btn-border-color;
+
+  color: $btn-border-color;
+
+  padding: 1rem 0.5rem;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  display: inline-block;
+
+  transition: all .5s linear;
+
+  &:hover {
+    background-color: $btn-border-color;
+    color: #fff;
+  }
+
+}

@@ -1,0 +1,36 @@
+header {
+  &.main-header {
+    background-image: url('/img/pattern.jpg');
+
+    height: 670px;
+    width: 100%;
+
+    margin-bottom: 5.5rem;
+
+    position: relative;
+
+    @media (min-width: 1024px) {
+      height: 800px;
+    }
+
+    .logo {
+
+      @include horizontally-vertically-center;
+
+      height: 254px;
+      width: 429px;
+      max-width: 100%;
+
+      padding: 1rem;
+
+      background-color: $color-lila-main;
+
+      img {
+        @include horizontally-vertically-center;
+
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+}

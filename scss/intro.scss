@@ -1,0 +1,91 @@
+section {
+  &.intro {
+
+    .row {
+
+      display: table-row;
+
+      .infos {
+        width: 45%;
+
+        display: table-cell;
+
+        vertical-align: middle;
+
+        &:before {
+          content: ' ';
+          display: inline-block;
+          height: 100%;
+          vertical-align: middle;
+        }
+
+        h1, p, .btn {
+          display: inline-block;
+          vertical-align: middle;
+        }
+
+        h1 {
+          font-size: 3rem;
+
+          font-family: Helvetica, Verdana, Arial, Sans-Serif;
+
+          margin-bottom: 1.5rem;
+
+          width: 80%;
+
+
+          @media (max-width: 1024px) {
+            font-size: 2.25rem;
+          }
+        }
+
+        p {
+          line-height: 1.4;
+
+          margin-bottom: 1rem;
+        }
+
+        @media (max-width: 1440px) {
+          padding: 0 2rem 0 1rem;
+        }
+
+      }
+
+      .socks {
+        width: 55%;
+
+        position: relative;
+        overflow: hidden;
+
+        display: table-cell;
+        height: 600px;
+
+        background-image: url('/img/socken.jpg');
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+        /*&:after {
+
+          width: 100%;
+          height: 100%;
+
+          position: absolute;
+          left: 0;
+          top: 0;
+
+          background-image: url('/img/socken.jpg');
+          background-position: left top;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+          transform: rotate(18deg);
+
+          content: ' ';
+        }*/
+      }
+    }
+
+  }
+}

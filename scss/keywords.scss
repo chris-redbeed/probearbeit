@@ -1,0 +1,116 @@
+section {
+  &.keywords {
+    background-color: $color-lila-main;
+
+    width: 100%;
+    min-height: 50px;
+
+    padding: 3rem;
+
+    margin-bottom: 3rem;
+
+    .row {
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      display: flex;
+
+      .col {
+        color: #fff;
+        flex-grow: 1;
+
+        text-align: center;
+        position: relative;
+
+
+
+        p {
+          font-size: 16px;
+          width: 160px;
+          display: block;
+          margin: auto;
+          line-height: 1.4;
+        }
+
+        .icon {
+          display: inline-block;
+
+          background-color: #fff;
+          background-repeat: no-repeat;
+          background-position: center;
+
+          width: 125px;
+          height: 125px;
+
+          border-radius: 50%;
+
+          margin-bottom: 1.5rem;
+
+          @media (max-width: 1024px) {
+            width: 105px;
+            height: 105px;
+          }
+
+
+          //normal
+          &.quality {
+            background-image: url('/img/cotton_lila.png');
+          }
+
+          &.dots {
+            background-image: url('/img/dots_lila.png');
+          }
+
+          &.sock {
+            background-image: url('/img/socke_lila.png');
+          }
+        }
+
+        &:after {
+          content: ' ';
+
+          width: 0;
+          height: 0;
+
+          border-style: solid;
+          border-width: 32px 26.5px 0 26.5px;
+          border-color: $color-lila-main transparent transparent transparent;
+
+          position: absolute;
+          bottom: -3rem;
+          left: 50%;
+          margin-left: -32px;
+
+          transition: all .5s linear;
+        }
+
+        &.active {
+
+          &:after {
+            bottom: -5rem;
+          }
+          .icon {
+            background-color: #461863;
+          }
+
+          //active images
+
+          &.quality {
+            background-image: url('/img/cotton_white.png');
+          }
+
+          &.dots {
+            background-image: url('/img/dots_white.png');
+          }
+
+          &.sock {
+            background-image: url('/img/socke_white.png');
+          }
+        }
+
+      }
+    }
+  }
+}
