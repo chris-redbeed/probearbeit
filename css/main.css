@@ -74,7 +74,7 @@ body {
     color: #fff; }
 
 header.main-header {
-  background-image: url("/img/pattern.jpg");
+  background-image: url(/img/pattern.jpg);
   height: 670px;
   width: 100%;
   margin-bottom: 5.5rem;
@@ -138,7 +138,7 @@ section.intro .row {
     overflow: hidden;
     display: table-cell;
     height: 600px;
-    background-image: url("/img/socken.jpg");
+    background-image: url(/img/socken.jpg);
     background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -196,11 +196,11 @@ section.keywords {
             width: 105px;
             height: 105px; } }
         section.keywords .row .col .icon.quality {
-          background-image: url("/img/cotton_lila.png"); }
+          background-image: url(/img/cotton_lila.png); }
         section.keywords .row .col .icon.dots {
-          background-image: url("/img/dots_lila.png"); }
+          background-image: url(/img/dots_lila.png); }
         section.keywords .row .col .icon.sock {
-          background-image: url("/img/socke_lila.png"); }
+          background-image: url(/img/socke_lila.png); }
       section.keywords .row .col:after {
         content: ' ';
         width: 0;
@@ -218,11 +218,11 @@ section.keywords {
       section.keywords .row .col.active .icon {
         background-color: #461863; }
       section.keywords .row .col.active.quality {
-        background-image: url("/img/cotton_white.png"); }
+        background-image: url(/img/cotton_white.png); }
       section.keywords .row .col.active.dots {
-        background-image: url("/img/dots_white.png"); }
+        background-image: url(/img/dots_white.png); }
       section.keywords .row .col.active.sock {
-        background-image: url("/img/socke_white.png"); }
+        background-image: url(/img/socke_white.png); }
 
 section.keywords-text {
   padding: 3rem 0 4rem 0;
